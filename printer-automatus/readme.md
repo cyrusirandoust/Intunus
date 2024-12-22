@@ -1,4 +1,4 @@
-# Printer Installation Automation Script
+# Printer Automatus - Printer Installation Automation Script
 
 ## Overview
 Everyone struggles with printers; everyone with decent common sense in IT hates printers. This script is for those people—good people—who use Intune to make their lives easier.

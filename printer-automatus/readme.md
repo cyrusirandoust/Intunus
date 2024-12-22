@@ -75,7 +75,7 @@ To package the script into an `.intunewin` file for deployment:
 1. Download the [Microsoft Win32 Content Prep Tool](https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-app-management).
 2. Use the following command to package your source folder:
    ```cmd
-   .\IntuneWinAppUtil.exe -c "C:\Intune\source\printer-automatus" -s Install-SharpBP55C26Driver.ps1 -o "C:\Intune\output\printer-automatus"
+   .\IntuneWinAppUtil.exe -c "C:\Intune\source\printer-automatus" -s Install-PrinterAutomatus.ps1 -o "C:\Intune\output\printer-automatus"
     ```
 
    - `-c`: Path to the folder containing the script and supporting files.

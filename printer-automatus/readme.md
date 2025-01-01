@@ -8,6 +8,7 @@ This PowerShell script automates the installation of a network printer on a Wind
 ---
 
 ## How It Works
+Just package the script in an Intunewin app as Win32 format and deploy it on device that require the driver. The script will install the driver, create a network port and create the printer as default for all the users. 
 
 ### Variables to Update
 Wherever you see `### CHANGE_ME ###`, you must customize the variables to suit your printer and environment:
